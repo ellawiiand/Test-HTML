@@ -1,11 +1,46 @@
+
+
 body{
-    background-color:lightcyan;
-    color:gray;
-    font: normal 15px Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(247, 212, 152);
+    color:rgb(0, 0, 0);
+    font: normal 15px calibri, Berlin-Sans_FB, Times, sans-serif;
     line-height:1.5em;
 }
 
 h1{
-    color:green;
-    size: 19px;
+    color:rgba(252, 5, 5, 0.678);
+}
+
+
+
+#main-header{
+    text-align: center;
+    color:rgba(255, 68, 0, 0.747);
+    font: bold 30px calibri, Berlin-Sans-FB;
+    font-size: 30px;
+    padding: 10px;
+    background-color: mistyrose;
+}
+
+.button{
+    border: none;
+    color: royalblue;
+    padding: 20px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: white;
+    color: black;
+    border: 2px solid royalblue;
+}
+
+.button1:hover{
+    background-color: sandybrown;
+    color: white;
 }
